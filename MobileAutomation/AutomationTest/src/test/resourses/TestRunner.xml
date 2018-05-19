@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationTest App Automation Test">
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Nexus"/>
+    <parameter name="version" value="5.1"/>
+    <parameter name="moduleName" value="AutomationTest"/>
+    <parameter name="appName" value="Walmart_v18.7.2_apkpure.com.apk"/>
+    <test name="GoToHomePage" preserve-order="true">
+        <classes>
+            <class name="testAutomation.TestSearchItems"/>
+        </classes>
+    </test>
+</suite>
