@@ -1,0 +1,6 @@
+#Database Info
+
+MYSQLJDBC.driver = com.mysql.cj.jdbc.Driver
+MYSQLJDBC.url = jdbc:mysql://localhost/Sabbir?serverTimezone=UTC&useSSL=false
+MYSQLJDBC.userName = root
+MYSQLJDBC.password = sabbir123
